@@ -1,0 +1,353 @@
+-- Counter blox script
+-- Version: 0.1
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Rage = Instance.new("TextButton")
+local Visual = Instance.new("TextButton")
+local Misc = Instance.new("TextButton")
+local RageTAB = Instance.new("Frame")
+local SILENTAIM = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local VisualTAB = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local MiscTAB = Instance.new("Frame")
+local KILLALL = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local Freeskins = Instance.new("TextButton")
+local Owlhub = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.Position = UDim2.new(0.239060789, 0, 0.297208548, 0)
+Frame.Size = UDim2.new(0, 488, 0, 246)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 488, 0, 28)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "COUNTER BLOX | Made by Liteexploit"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel.Active = true
+TextLabel.Draggable = true
+
+Rage.Name = "Rage"
+Rage.Parent = Frame
+Rage.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Rage.BorderSizePixel = 0
+Rage.Position = UDim2.new(0.717213094, 0, 0.138211384, 0)
+Rage.Size = UDim2.new(0, 128, 0, 50)
+Rage.Font = Enum.Font.SourceSans
+Rage.Text = "Rage"
+Rage.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rage.TextSize = 23.000
+
+Visual.Name = "Visual"
+Visual.Parent = Frame
+Visual.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Visual.BorderSizePixel = 0
+Visual.Position = UDim2.new(0.717213094, 0, 0.398373961, 0)
+Visual.Size = UDim2.new(0, 128, 0, 50)
+Visual.Font = Enum.Font.SourceSans
+Visual.Text = "Visual"
+Visual.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visual.TextSize = 23.000
+
+Misc.Name = "Misc"
+Misc.Parent = Frame
+Misc.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Misc.BorderSizePixel = 0
+Misc.Position = UDim2.new(0.717213094, 0, 0.670731723, 0)
+Misc.Size = UDim2.new(0, 128, 0, 50)
+Misc.Font = Enum.Font.SourceSans
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Misc.TextSize = 23.000
+
+RageTAB.Name = "RageTAB"
+RageTAB.Parent = Frame
+RageTAB.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+RageTAB.BorderSizePixel = 0
+RageTAB.Position = UDim2.new(0, 0, 0.138211384, 0)
+RageTAB.Size = UDim2.new(0, 342, 0, 181)
+
+SILENTAIM.Name = "SILENT AIM"
+SILENTAIM.Parent = RageTAB
+SILENTAIM.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+SILENTAIM.BorderSizePixel = 0
+SILENTAIM.Position = UDim2.new(0.0204678364, 0, 0.0386740342, 0)
+SILENTAIM.Size = UDim2.new(0, 105, 0, 43)
+SILENTAIM.Font = Enum.Font.SourceSans
+SILENTAIM.Text = "SILENT AIM"
+SILENTAIM.TextColor3 = Color3.fromRGB(255, 255, 255)
+SILENTAIM.TextSize = 16.000
+
+TextLabel_2.Parent = RageTAB
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0204678364, 0, 0.58011049, 0)
+TextLabel_2.Size = UDim2.new(0, 327, 0, 69)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "More function will come soon"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 25.000
+
+VisualTAB.Name = "VisualTAB"
+VisualTAB.Parent = Frame
+VisualTAB.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+VisualTAB.BorderSizePixel = 0
+VisualTAB.Position = UDim2.new(-0.00204918021, 0, 0.138211384, 0)
+VisualTAB.Size = UDim2.new(0, 342, 0, 181)
+
+TextLabel_3.Parent = VisualTAB
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.023391813, 0, 0.143646389, 0)
+TextLabel_3.Size = UDim2.new(0, 327, 0, 69)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "More function will come soon"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 25.000
+
+MiscTAB.Name = "MiscTAB"
+MiscTAB.Parent = Frame
+MiscTAB.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+MiscTAB.BorderSizePixel = 0
+MiscTAB.Position = UDim2.new(0, 0, 0.134146333, 0)
+MiscTAB.Size = UDim2.new(0, 342, 0, 181)
+
+KILLALL.Name = "KILL ALL"
+KILLALL.Parent = MiscTAB
+KILLALL.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+KILLALL.BorderSizePixel = 0
+KILLALL.Position = UDim2.new(0.0204678364, 0, 0.0386740342, 0)
+KILLALL.Size = UDim2.new(0, 105, 0, 43)
+KILLALL.Font = Enum.Font.SourceSans
+KILLALL.Text = "KILL ALL"
+KILLALL.TextColor3 = Color3.fromRGB(255, 255, 255)
+KILLALL.TextSize = 16.000
+
+TextLabel_4.Parent = MiscTAB
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0204678364, 0, 0.408839762, 0)
+TextLabel_4.Size = UDim2.new(0, 327, 0, 69)
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "More function will come soon"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 25.000
+
+Freeskins.Name = "Free skins"
+Freeskins.Parent = MiscTAB
+Freeskins.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Freeskins.BorderSizePixel = 0
+Freeskins.Position = UDim2.new(0.345029265, 0, 0.0386740342, 0)
+Freeskins.Size = UDim2.new(0, 105, 0, 43)
+Freeskins.Font = Enum.Font.SourceSans
+Freeskins.Text = "Free skins"
+Freeskins.TextColor3 = Color3.fromRGB(255, 255, 255)
+Freeskins.TextSize = 16.000
+
+Owlhub.Name = "Owl hub"
+Owlhub.Parent = MiscTAB
+Owlhub.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Owlhub.BorderSizePixel = 0
+Owlhub.Position = UDim2.new(0.669590592, 0, 0.0386740342, 0)
+Owlhub.Size = UDim2.new(0, 105, 0, 43)
+Owlhub.Font = Enum.Font.SourceSans
+Owlhub.Text = "Owl hub"
+Owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Owlhub.TextSize = 16.000
+
+-- Scripts:
+
+local function ALJELHU_fake_script() -- Rage.LocalScript 
+	local script = Instance.new('LocalScript', Rage)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.RageTAB.Visible = true
+		script.Parent.Parent.VisualTAB.Visible = false
+		script.Parent.Parent.MiscTAB.Visible = false
+	end)
+end
+coroutine.wrap(ALJELHU_fake_script)()
+local function TKUDHGM_fake_script() -- Visual.LocalScript 
+	local script = Instance.new('LocalScript', Visual)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.RageTAB.Visible = false
+		script.Parent.Parent.VisualTAB.Visible = true
+		script.Parent.Parent.MiscTAB.Visible = false
+	end)
+end
+coroutine.wrap(TKUDHGM_fake_script)()
+local function WMOBQNT_fake_script() -- Misc.LocalScript 
+	local script = Instance.new('LocalScript', Misc)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.RageTAB.Visible = false
+		script.Parent.Parent.VisualTAB.Visible = false
+		script.Parent.Parent.MiscTAB.Visible = true
+	end)
+end
+coroutine.wrap(WMOBQNT_fake_script)()
+local function OGNPRPS_fake_script() -- SILENTAIM.LocalScript 
+	local script = Instance.new('LocalScript', SILENTAIM)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local CurrentCamera = workspace.CurrentCamera
+		local Players = game.Players
+		local LocalPlayer = Players.LocalPlayer
+		local Mouse = LocalPlayer:GetMouse()
+		function ClosestPlayer()
+			local MaxDist, Closest = math.huge
+			for I,V in pairs(Players.GetPlayers(Players)) do
+				if V == LocalPlayer then continue end
+				if V.Team == LocalPlayer then continue end
+				if not V.Character then continue end
+				local Head = V.Character.FindFirstChild(V.Character, "Head")
+				if not Head then continue end
+				local Pos, Vis = CurrentCamera.WorldToScreenPoint(CurrentCamera, Head.Position)
+				if not Vis then continue end
+				local MousePos, TheirPos = Vector2.new(Mouse.X, Mouse.Y), Vector2.new(Pos.X, Pos.Y)
+				local Dist = (TheirPos - MousePos).Magnitude
+				if Dist < MaxDist then
+					MaxDist = Dist
+					Closest = V
+				end
+			end
+			return Closest
+		end
+		local MT = getrawmetatable(game)
+		local OldNC = MT.__namecall
+		local OldIDX = MT.__index
+		setreadonly(MT, false)
+		MT.__namecall = newcclosure(function(self, ...)
+			local Args, Method = {...}, getnamecallmethod()
+			if Method == "FindPartOnRayWithIgnoreList" and not checkcaller() then
+				local CP = ClosestPlayer()
+				if CP and CP.Character and CP.Character.FindFirstChild(CP.Character, "Head") then
+					Args[1] = Ray.new(CurrentCamera.CFrame.Position, (CP.Character.Head.Position - CurrentCamera.CFrame.Position).Unit * 1000)
+					return OldNC(self, unpack(Args))
+				end
+			end
+			return OldNC(self, ...)
+		end)
+		MT.__index = newcclosure(function(self, K)
+			if K == "Clips" then
+				return workspace.Map
+			end
+			return OldIDX(self, K)
+		end)
+		setreadonly(MT, true)
+	
+	end)
+end
+coroutine.wrap(OGNPRPS_fake_script)()
+local function ZFRDRB_fake_script() -- KILLALL.LocalScript 
+	local script = Instance.new('LocalScript', KILLALL)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local Remote = game.ReplicatedStorage.Events['HitPart']
+	
+		for _,v in pairs(game:GetService"Players":GetChildren()) do
+			if v.Team ~= game.Players.LocalPlayer.Team then
+				if v.Character and v.Character.Head then
+					local Arguments = {
+						[1] = workspace[v.Name].Head,
+						[2] = workspace[v.Name].Head.Position,
+						[3] = workspace[game.Players.LocalPlayer.Name].EquippedTool.Value,
+						[4] = math.rad(1,100000),
+						[5] = workspace[game.Players.LocalPlayer.Name].Gun,
+						[8] = 8, --damage multiplier
+						[9] = false,
+						[10] = false,
+						[11] = Vector3.new(),
+						[12] = math.rad(1,100000),
+						[13] = Vector3.new()
+					}
+	
+					Remote:FireServer(unpack(Arguments))
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(ZFRDRB_fake_script)()
+local function OQYYB_fake_script() -- Freeskins.LocalScript 
+	local script = Instance.new('LocalScript', Freeskins)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local Client = game.Players["LocalPlayer"]
+		local Skins = loadstring(game:HttpGet("https://uwuware.cool/scripts/getfile.php?ID=rrkbB7GagR8Vbg4byAdJvw9HouiWOG9I", true))() --Change this to your own link or table if you have one with more skins
+		local Unlocked
+	
+		local mt = getrawmetatable(game)
+		local old_call = mt.__namecall
+		if setreadonly then
+			setreadonly(mt, false)
+		elseif make_writeable then
+			make_writeable(mt)
+		end
+		mt.__namecall = newcclosure(function(self, ...)
+			local args = {...}
+			local method = getnamecallmethod()
+			if method == "FireServer" then
+				if string.len(self.Name) > 35 then
+					if not Unlocked then
+						Unlocked = true
+						for i,v in next, Skins do
+							local Skip
+							for ii,vv in next, args[1] do
+								if v[1] == vv[1] then
+									Skip = true
+								end
+							end
+							if not Skip then
+								table.insert(args[1], v)
+							end
+						end
+					end
+					return
+				end
+				if self.Name == "DataEvent" and args[1][4] then
+					local Skin = string.split(args[1][4][1], "_")[2]
+					if args[1][2] == "Both" then
+						Client["SkinFolder"]["CTFolder"][args[1][3]].Value = Skin
+						Client["SkinFolder"]["TFolder"][args[1][3]].Value = Skin
+					else
+						Client["SkinFolder"][args[1][2] .. "Folder"][args[1][3]].Value = Skin
+					end
+				end
+			end
+			if method == "InvokeServer" and self.Name == "Hugh" then
+				return
+			end
+			return old_call(self, unpack(args))
+		end)
+	
+		local CT, T = Client.SkinFolder.CTFolder:Clone(), Client.SkinFolder.TFolder:Clone()
+		Client.SkinFolder.CTFolder:Destroy()
+		Client.SkinFolder.TFolder:Destroy()
+		CT.Parent, T.Parent = Client["SkinFolder"], Client["SkinFolder"]
+	end)
+end
+coroutine.wrap(OQYYB_fake_script)()
+local function KMZY_fake_script() -- Owlhub.LocalScript 
+	local script = Instance.new('LocalScript', Owlhub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(KMZY_fake_script)()
