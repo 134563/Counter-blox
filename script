@@ -29,6 +29,8 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Frame.Position = UDim2.new(0.239060789, 0, 0.297208548, 0)
 Frame.Size = UDim2.new(0, 488, 0, 246)
+Frame.Active = true
+Frame.Draggable = true
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
@@ -38,8 +40,6 @@ TextLabel.Font = Enum.Font.SciFi
 TextLabel.Text = "COUNTER BLOX | Made by Liteexploit"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
-TextLabel.Active = true
-TextLabel.Draggable = true
 
 Rage.Name = "Rage"
 Rage.Parent = Frame
