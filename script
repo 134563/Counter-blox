@@ -1,7 +1,7 @@
 game.StarterGui:SetCore("SendNotification", {
-Title = "Counter blox Scrpt"; -- the title (ofc)
-Text = "Made by Bunnito#0985"; -- what the text says (ofc)
-Duration = 5; -- how long the notification should in secounds
+Title = "Counter blox Scrpt";
+Text = "Made by Bunnito#0985";
+Duration = 5;
 })
 
 
