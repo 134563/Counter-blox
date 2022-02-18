@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-Title = "Counter blox Scrpt";
+Title = "Counter blox Script";
 Text = "Made by Bunnito#0985";
 Duration = 5;
 })
